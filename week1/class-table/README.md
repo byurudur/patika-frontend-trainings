@@ -18,6 +18,7 @@ A project to create a class table using HTML.
     git clone https://github.com/byurudur/class-table.git
     ```
 2. Open the `sinif_tablosu.html` file in a web browser.
+3. Click here[http://127.0.0.1:5500/sinif_tablosu.html] to see the html output directly.
 
 ## Contributing
 
