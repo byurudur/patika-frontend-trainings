@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <!--Kullanıcıdan veri almak için form elementleri kullanılır.-->
+    <h1>HTML FORMLARI</h1>
+    <h3>e.g;</h3>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <div>
+            <label for="fullname">Name and Surname: </label>
+            <input type="text" id="fullname">
+        </div> 
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="I prefer not to say"> I prefer not to say
+        </div>
+        <div>
+            <label for="birthday"> Birthday: </label>
+            <input type="date" id="birthday">
+        </div>
+        <div>
+            <label for="city">Place of residence: </label>
+            <select id="city"> <!--Şehirler gelmemesi hatası var.-->
+                <option value="Choose a city">Choose a city</option>
+                <option value="Izmir">Izmir</option>
+                <option value="Istanbul">Istanbul</option>
+                <option value="Tokat">Tokat</option>
+                <option value="Mugla">Mugla</option>
+                <option value="Ankara">Ankara</option>
+                <option value="Other">Other</option>
+
+            </select>
+        </div>
+        <div>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" name="hobbies[]" value="Sports"> Sports
+            <input type="checkbox" name="hobbies[]" value="Music"> Music
+            <input type="checkbox" name="hobbies[]" value="Cinema"> Cinema
+            <input type="checkbox" name="hobbies[]" value="Culinary"> Culinary
+            <input type="checkbox" name="hobbies[]" value="Books"> Books
+            <input type="checkbox" name="hobbies[]" value="Collections"> Collections
+        </div>
+        <div>
+            <label for="cv">Upload a resume:</label>
+            <input type="file" id="cv">
+        </div>
+    </fieldset>
+        <br><fieldset>
+            <legend>Contact Informations:</legend>
+            <div>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone">
+            </div>
+            <div>
+                <label for="address">Address:</label>
+                <textarea name="address" id="address" cols="30"></textarea>
+            </div>
+        </fieldset>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset All</button>
+        </div>
+    </form>
+
+</body>
+</html>
