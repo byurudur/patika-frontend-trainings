@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-elements</title>
+</head>
+<body>
+    <h1>Personal Informations</h1>
+    <form>
+        <fieldset>
+            <legend>Name and Surname</legend>
+            <div>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname">
+            </div>
+            <div>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname">
+            </div>
+        </fieldset>
+        <br><fieldset>
+            <legend>E-mail, Password & Gender </legend>
+            <div>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" id="password">
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="I prefer not to say"> I prefer not to say
+            </div>
+        </fieldset>
+        <br><fieldset>
+            <legend>Your favorite fruit is:</legend>
+            <label for="fruit"></label>
+            <select id="fruit">
+                <option value="ilike">I like:</option>
+                <option value="Melon">Melon</option>
+                <option value="Berries">Berries</option>
+                <option value="Apple">Apple</option>
+                <option value="Orange">Orange</option>
+                <option value="Plum">Plums</option>
+                <option value="nothere">Not in the list</option>
+            </select>
+        </fieldset>
+        <br><fieldset>
+            <legend>My message to you:</legend>
+            <div>
+                <textarea name="text" id="message">I'd like to say...</textarea>
+            </div>
+        </fieldset>
+        <button type="submit">Submit All</button>
+        <button type="reset">Reset All</button>
+    </form>
+</body>
+</html>
