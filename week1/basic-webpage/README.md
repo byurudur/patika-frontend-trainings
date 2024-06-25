@@ -10,7 +10,7 @@ A simple HTML web page with CSS, including About Me, Education, Experiences, and
     ```
 2. Navigate to the project directory:
     ```bash
-    cd my-website
+    cd basic-webpage
     ```
 3. Or, go directly to [here](http://127.0.0.1:5500/index.html).
 
