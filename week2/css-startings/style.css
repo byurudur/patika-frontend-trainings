@@ -1,0 +1,15 @@
+h1 {
+    color: yellow;
+    background-color: navy;
+    text-align: center;
+}
+#lor{
+    color: white;
+    background-color: navy;
+}
+.fener{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
