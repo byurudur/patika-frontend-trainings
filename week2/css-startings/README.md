@@ -3,4 +3,3 @@
 - color: (color)
 - background-color: (color)
 - text-align: center
-- <div align="center">
