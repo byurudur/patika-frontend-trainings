@@ -35,7 +35,7 @@ I am eager to learn any technique and ready to improve my coding skills.
   
   - [Week 1](https://github.com/byurudur/patika-frontend-trainings/tree/main/week1)
   - [Week 2](https://i.gifer.com/QJVR.gif)
-  - [Week 2](https://github.com/byurudur/patika-frontend-trainings/tree/main/week3)
+  - [Week 3](https://github.com/byurudur/patika-frontend-trainings/tree/main/week3)
 
   
 </details>
