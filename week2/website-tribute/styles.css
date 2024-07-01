@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(images/texture-roughcast-plaster-wall-f702381916071307cefead591e37c996.jpg); /* Arkaplan görselini ekleyin */
+    background-size: cover; /* Görseli tüm sayfaya yayar */
+    background-repeat: no-repeat; /* Görselin tekrar etmesini engeller */
+    background-position: center; /* Görseli merkezler */
+    height: 100vh; /* Sayfanın tam yüksekliğini kaplar */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: #4682B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0; /* Sayfanın en üstünde sabit duracak */
+    z-index: 1000; /* Diğer içeriklerden üstte olacak */
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 100px;
+    font-weight: bold;
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s ease; /* Yazının büyüme animasyonu */
+}
+
+nav ul li a:hover {
+    transform: scale(1.1); /* Yazının büyümesi */
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    flex: 1;
+    margin-top: 60px; /* Navigasyon çubuğu yüksekliği kadar aşağı kayacak */
+}
+
+.image-box,
+.text-box {
+    transition: transform 0.3s ease;
+    max-width: 300px;
+}
+
+.image-box {
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    margin-left: 50px; /* Fotoğrafı sola doğru kaydır */
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 5px solid #4682B4;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    margin-right: 30px; /* Text-box'u sağa doğru kaydır */
+}
+
+.image-box img {
+    max-width: 100%;
+}
+
+.image-box:hover,
+.text-box:hover {
+    transform: scale(1.3);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+
+footer nav ul {
+    list-style-type:lower-alpha;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .content {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(images/texture-roughcast-plaster-wall-f702381916071307cefead591e37c996.jpg); /* Arkaplan görselini ekleyin */
+    background-size: cover; /* Görseli tüm sayfaya yayar */
+    background-repeat: repeat-y; /* Görselin tekrar etmesini engeller */
+    background-position: center; /* Görseli merkezler */
+    height: 100vh; /* Sayfanın tam yüksekliğini kaplar */
+    color: #333;
+    padding: 20px;
+}
+
+.header1 {
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+    border: 5px solid #4682B4;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative; /* Mutlaka pozisyonu relative yapın */
+    overflow: hidden; /* İçeriği sınırlıyoruz */
+    background-image: url(images/image.png)
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 5px solid #4682B4;
+    border-radius: 10px;
+}
+
+li:hover {
+
+    transform: scale(1.05); /* Mouse ile üstüne gelindiğinde büyüme efekti */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); /* Hafif gölge efekti */
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+
+footer nav ul {
+    list-style-type:lower-alpha;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .content {
+        margin-right: 0;
+    }
+}
