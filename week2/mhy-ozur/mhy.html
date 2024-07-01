@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mert Hakan Yandaş Özür Formu</title>
+    <link rel="stylesheet" href="mhy.css">
+</head>
+<body>
+    <div class="form-container">
+        <img src="mhyimage/image.png" alt="Mert Hakan Yandaş" class="profile-picture">
+        <h2>Mert Hakan Yandaş Özür Formu</h2>
+        <form id="ozur-formu">
+            <label for="isim">İsim:</label>
+            <input type="text" id="isim" name="isim" required>
+            
+            <label for="soyisim">Soyisim:</label>
+            <input type="text" id="soyisim" name="soyisim" required>
+            
+            <label for="dogum-yili">Doğum Yılı:</label>
+            <input type="date" id="dogum-yili" name="dogum-yili" required>
+
+            <fieldset>
+                <legend>Saygısızlık Sebepleri:</legend>
+                <label><input type="checkbox" name="sebep" value="sebep1"> Ön yargılıydım, sadece eleştirdim.</label>
+                <label><input type="checkbox" name="sebep" value="sebep2"> liderliğini takdir etmedim.</label>
+                <label><input type="checkbox" name="sebep" value="sebep3"> Sosyal medyada çok manipüle oldum.</label>
+                <label><input type="checkbox" name="sebep" value="sebep4"> Fenerbahçe'ye adanmışlığını küçümsedim.</label>
+                <label><input type="checkbox" name="sebep" value="sebep5"> Futbol bilmiyorum.</label>
+                <label><input type="checkbox" name="sebep" value="sebep6"> Taraftarla arasındaki bağı farketmedim.</label>
+            </fieldset>
+            
+            <label for="ek-saygisizliklar">Ek Saygısızlıklarım:</label>
+            <textarea id="ek-saygisizliklar" name="ek-saygisizliklar" rows="4" cols="50"></textarea>
+            
+            <button type="submit">Saygısızlıklarınız için özür diliyor musunuz?</button>
+            <button type="reset">Formu Yenile</button>
+        </form>
+    </div>
+</body>
+</html>
