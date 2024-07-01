@@ -1,0 +1,99 @@
+/*
+
+body {
+    
+}
+
+
+.welcomingMessage:hover {
+    
+    box-shadow: 0px 0px 70px white;
+
+}
+
+.explanation {
+
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    color: antiquewhite;
+} 
+
+*/
+.welcomingMessage {
+    font-size: 50px;
+    font-family: fantasy;
+    color: bisque;
+    text-align: center;   
+}
+
+body {
+    background-image: url(images/arkaplan.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 300px;
+}
+.card img {
+    display: block;
+    height: 200px;
+    margin: 0 auto 20px;
+    object-fit: cover;
+    width: 200px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.card p {
+    font-size: 1em;
+    margin: 0 0 20px;
+}
+
+.card a {
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    color: beige;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.card a:hover {
+    background-color: burlywood;
+}
+
+.card1 {
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+}
+
+.card2 {
+        border-left: 5px solid gray;
+        border-right: 5px solid gray;
+}
+
