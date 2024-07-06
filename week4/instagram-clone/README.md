@@ -1,6 +1,6 @@
 # Instagram Clone
 
-This is a simple frontend clone of Instagram, created using HTML and CSS. The project aims to replicate the look and feel of Instagram’s main page.
+This is a simple frontend clone of Instagram, created using HTML5, CSS3 and Bootstrap v4.5. The project aims to replicate the look and feel of Instagram’s main page.
 
 ## Table of Contents
 
