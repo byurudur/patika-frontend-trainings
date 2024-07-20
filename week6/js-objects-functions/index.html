@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars & Years</title>
+</head>
+<body>
+    <h1>JS-Car Object & Years Array</h1>
+    <script>
+    let Car = {
+        brand: "Renault",
+        model: "Clio 2",
+        nationality: "French",
+        yearsActive: [2005, 2006, 2007, 2008],
+        sellingColor: "Metallic Gray",
+        carData(){
+            return console.log("Car Brand: " + this.brand + "/ Car Model: " + this.model + "/ Product Base Country: " + this.nationality 
+            + "/ Car Color: " + this.sellingColor  )       
+         }
+    };
+
+    console.log(Car) // Objeyi yazdır.
+    Car.carData(); // Fonksiyonu çalıştır.
+    
+    </script>
+    
+</body>
+</html>
