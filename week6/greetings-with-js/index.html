@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Sup?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 50px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        #greeting {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HEYYYY!</h1>
+        <input type="text" id="nameInput" placeholder="Adınızı girin">
+        <button onclick="showGreeting()"> Girdim </button>
+        <div id="greeting"></div>
+    </div>
+
+    <script>
+        function showGreeting() {
+            const name = document.getElementById('nameInput').value;
+            if (name) {
+                const now = new Date();
+                const time = now.toLocaleTimeString();
+                const date = now.toLocaleDateString();
+                const greeting = `Kalite'ye Hoşgeldiniz, ${name}!<br> Saatin tam olarak: ${time}<br> Tarih tam olarak: ${date}`;
+                document.getElementById('greeting').innerHTML = greeting;
+            }
+        }
+    </script>
+</body>
+</html>
