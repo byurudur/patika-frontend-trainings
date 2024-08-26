@@ -1,0 +1,22 @@
+.footer {
+    background-color: #355592;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .social-links img {
+    width: 24px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.1);
+  }
+  
+  .copyright {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  

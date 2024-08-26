@@ -1,0 +1,27 @@
+.contact {
+    padding: 4rem 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #355592;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info {
+    max-width: 400px;
+  }
+  
+  .contact-info p {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
